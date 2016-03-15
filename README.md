@@ -1,1 +1,1 @@
-# hero-theme-Zone
+# hexo-theme-Zone
