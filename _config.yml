@@ -1,0 +1,47 @@
+# config
+cover: /img/1.jpg
+logo: /img/pic.png
+top_saying:
+- title: LIFE IS SHORT  JUST DO  IT 
+- content: If you look on the ground in search of a sixpence, you don't look up, and so miss the moon.
+bottom_saying:
+# Content
+excerpt_link: Read More
+
+rss: /atom.xml
+
+highlightjs: vs
+
+#Works
+works:
+- works_name: 
+  works_url: /
+- works_name: 
+  works_url: /atom.xml
+
+#duoshuo name
+duoshuo: duoshuo_name
+
+# Miscellaneous
+github: https://github.com/lyz-stephen
+twitter: https://twitter.com/StephenAndLiu
+facebook: https://www.facebook.com/
+google: https://google.com/
+weibo: http://weibo.com/
+
+#about  timeline
+timeline:
+- num: 1
+  word: 2014/06/12-Start
+- num: 2
+  word: 2014/11/29-XXX
+- num: 3
+  word: 2015/02/18-DDD
+- num: 4
+  word: More
+
+#Links
+links:
+- name: Stephen
+  link: http://lyz-stephen.github.io/
+- name: 
