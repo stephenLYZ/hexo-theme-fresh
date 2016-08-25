@@ -50,9 +50,12 @@
 			&:hover:before{
 				width:100%;
 			}
-		}
+		}		
 
-		
+	}
+	.subtitle{
+		color: $content-color;
+		margin-top: 50px;
 
 	}
 }
