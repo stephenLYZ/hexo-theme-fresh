@@ -1,36 +1,14 @@
-        <div class="navbar-inner">
-                <div class="container">
-                    <!-- Nav logo -->
-                    <div class="logo">
-                        <a href="/" title="Logo" class="animsition-link">
-                        <% if (theme.logo) { %> <img src="<%- theme.logo %>" alt="Logo" width="35px;"/> <% } %>
-                        </a>
-                    </div>
-                    <!-- // Nav logo -->
-                    <!-- Info-bar -->
-                    <nav>
-                        <ul class="nav">
-                            <li><a href="/" class="animsition-link"><%- config.title %></a></li>
-                            <li class="nolink"><span>Always </span>Creative.</li>
-                            <% if(theme.github){ %>
-                            <li><a href="<%- theme.github %>" title="Github" target="_blank"><i class="icon-github"></i></a></li>
-                            <% } %>
-                            <% if(theme.twitter){ %>
-                            <li><a href="<%- theme.twitter %>" title="Twitter" target="_blank"><i class="icon-twitter"></i></a></li>
-                            <% } %>
-                            <% if(theme.facebook){ %>
-                            <li><a href="<%- theme.facebook %>" title="Facebook" target="_blank"><i class="icon-facebook"></i></a></li>
-                            <% } %>
-                            <% if(theme.google){ %>
-                            <li><a href="<%- theme.google %>" title="Google-Plus" target="_blank"><i class="icon-google-plus"></i></a></li>
-                            <% } %>
-                            <% if(theme.weibo){ %>
-                            <li><a href="<%- theme.weibo %>" title="Sina-Weibo" target="_blank"><i class="icon-sina-weibo"></i></a></li>
-                            <% } %>
-                            <li class="nolink"><span>Welcome!</span></li>
-                        </ul>
-                    </nav>
-                    <!--// Info-bar -->
-                </div>
-                <!-- // .container -->
-        </div>
+<header class="header">
+    <section class="banner">
+        <img class="banner-image" src="<%- url_for(theme.banner) %>" alt="banner">
+        <img class="avatar" src="<%- url_for(theme.avatar) %>" alt="avatar" >
+    </section>
+
+    <nav class="nav">
+    	<a href="/">Home </a>
+
+    	<a href="/archives">Archives</a>
+    </nav>
+    	
+    
+</header>

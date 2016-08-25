@@ -1,0 +1,8 @@
+<article class="article">
+   <div class="article-meta">
+    <span class="article-date"><%- date(post.date, 'YYYY-MM-DD') %></span>
+  </div>
+  <h1 class="article-title">
+    <a href="<%- url_for(post.path) %>"><%- post.title %></a>
+  </h1>
+</article>

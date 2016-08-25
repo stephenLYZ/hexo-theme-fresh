@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+html {
+  font-size: $font-size-main;
+}
+
+body {
+  margin: 0;
+  font-family: $font-sans;
+}
+
+a {
+  text-decoration: none;
+  color: $main-color;
+  cursor: pointer;
+}

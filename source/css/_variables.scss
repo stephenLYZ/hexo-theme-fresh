@@ -1,0 +1,50 @@
+// define variablies
+
+//base
+$content-width: 940px;
+$gutter: 15px;
+
+// font 
+$font-mono: "Source Code Pro", Consolas, Monaco, Menlo, Consolas, monospace;
+$font-sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-serif: Georgia, "Times New Roman", serif;
+$font-blog-title: "Comic Sans MS", cursive, LiSu, sans-serif;
+$font-post-title: "Titillium Web","Helvetica Neue",Helvetica,Arial,"Microsoft Yahei",sans-serif;
+$font-header: 'Helvetica Neue', "WenQuanYi Micro Hei", Heiti, Impact, Charcoal, sans-serif,Rockwell Bold;
+$font-content: Helvetica, Tahoma, Arial, STXihei, "Microsoft YaHei", "WenQuanYi Micro Hei", SimSun, Heiti, ubuntu, sans-serif;
+
+$font-size-main: 16px;
+$root-font-size: 16px;
+$line-height: 1.6em;
+$line-height-title: 1.1em;
+
+
+// colors
+
+$main-color: #3eb3a5;
+$content-color: #afafaf;
+$border-color: #ebebeb;
+
+// header
+$avatar-size: 200px;
+$avatar-backgound:  #97bb09;
+
+
+//article
+$article-line-height: 1.7rem;
+
+// markdown highlight
+//
+$code-bg-color: rgba(0,0,0,0.07);;
+$quote-border-color: #aaa;
+$quote-color: #aaa;
+$code-block-linehight: 1.25 * $root-font-size;
+
+//clearfix
+.clearfix {
+    &::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}

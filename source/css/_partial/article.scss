@@ -1,0 +1,47 @@
+main.post{
+	max-width: $content-width;
+	margin: 0 auto;
+  	padding: $gutter;
+  	border-bottom: 1px solid $border-color;
+
+  	article{
+  		border-top: 1px solid $border-color;
+  		position: relative;
+  		margin-top: 100px;
+  		padding-left: 110px;
+  		line-height: $article-line-height;
+  	}
+  	.article-title{
+
+  		font-family: $font-post-title;
+  	}
+
+  	.post-time{
+		width: 110px;
+		height: 110px;
+		border-radius: 50%;
+		border: 5px solid $border-color;
+		text-align: center;
+		line-height: 110px;		
+		color: $main-color;	
+		position: absolute;
+		background-color: #fff;
+		top: -55px;
+		left: 0;
+		transition: all 0.5s ease-out;	
+		.post-date{
+			font-family: $font-blog-title;
+			font-size: 25px;					
+		}
+
+	}
+
+	.article-entry img{
+		display: block;
+		height: auto;
+		margin: auto;
+		max-width: 100%;
+		border: none;
+		box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.4);
+	}
+}

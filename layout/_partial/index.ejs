@@ -1,0 +1,20 @@
+<main class="index">
+	<% page.posts.each(function(post){ %>
+		<div class="post">
+			<div class="post-time">
+				<span class="post-date"><%- full_date(post.date,'MM-DD') %></span>
+			</div>
+			<div class="post-content">
+				<h1 class="post-title">
+		        	<a href="<%- url_for(post.path) %>"><%- post.title %></a>
+		    	</h1>
+		    	<div class="post-entry">
+		    		<%- strip_html(post.content).replace(/^\s*/, '').replace(/\s*$/, '').substring(0, theme.excerpt_num)%>
+		    	</div>
+		    	<a href="<%- url_for(post.path) %>" class="readmore">Read More</a>
+			</div>
+		</div>
+	<% }) %>
+
+	<%- partial('./paginator') %>
+</main>

@@ -1,14 +1,18 @@
 <head>
-	<title><% if (title){ %><%= title %> | <% } %><%= config.title %></title>
  	 <!-- Meta data -->
     <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" >
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="generator" content="<%- config.title %>">
-    <meta name="author" content="<%- config.author %>">
-    <meta name="description" content="<%- config.subtitle %>" />
-    <meta name="keywords" content="<%- config.keywords %>" />
+    <meta name="description" content="<%= config.description %>">
+    <meta name="keyword"  content="<%= config.keyword %>">
+    <title><% if (page.title){ %><%= page.title %> | <% } %><%= theme.title %></title>
     <!-- Favicon, (keep icon in root folder) -->
-    <link rel="Shortcut Icon" href="<%- config.root %>img/favicon.ico" type="image/ico">
-    <link rel="stylesheet" href="<%- config.root %>css/all.css" media="screen" type="text/css">
+    <link rel="Shortcut Icon" href="<%- url_for(theme.favicon) %>" type="image/ico">
+
+    <!-- css files -->
+    <%- css('css/app') %>
+    <%- css('css/normalize.css') %>
+
+    <!-- font -->
+	<link rel="stylesheet" type="text/css" href="http://cdn.staticfile.org/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>

@@ -1,0 +1,58 @@
+.header{
+	text-align: center;
+
+	.banner{
+		position: relative;
+		.banner-image{
+			width: 100%;
+		}
+		.avatar{
+			width: $avatar-size;
+    		height: $avatar-size;
+    		border-radius: 50%;
+    		border: 5px solid #fff;
+    		background-color: $avatar-backgound;
+    		position: absolute; 
+    		left: 50%;
+    		transform: translate(-50%,-50%);
+    		z-index: 1;
+    		box-shadow: 0 0 3px rgba(0,0,0,0.4);
+		}
+	}
+
+	.nav{
+		line-height: 4.3rem;
+		border-bottom: 1px solid rgba(0,0,0,0.1);
+		position: relative;
+
+		a{
+			font-size: 20px;
+			font-family: 'Rock well';
+			display: inline-block;
+			line-height: 3rem;
+			color: $content-color;
+			position: relative;	
+			margin: 0 130px;
+			cursor: pointer; 	
+			&:hover{
+				color: $main-color;
+			}
+			&:before{
+				content: '';
+				position: absolute;
+				left: 0;
+				bottom: 0;
+				width: 0;
+				height: 3px;
+				background-color: $content-color;
+				transition: all 0.3s ease-out;
+			}
+			&:hover:before{
+				width:100%;
+			}
+		}
+
+		
+
+	}
+}

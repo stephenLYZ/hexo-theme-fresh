@@ -1,0 +1,46 @@
+.archive{
+	max-width: $content-width;
+	margin: 50px auto;
+	padding: $gutter;
+	position: relative;
+	
+
+	.article:before{
+		content: '';
+	    position: absolute;
+	    height: 10%;
+	    width: 6px;
+	    left: 150px;
+	    background: $main-color;
+	}
+	.article-meta{
+		display: inline-block;
+		margin-right: 100px;
+		position: relative;
+		font-family: $font-mono;
+		font-size: 18px;
+
+	}
+	.article-meta:after{
+		content: '';
+		border-radius: 50%;
+		background-color: $content-color;
+		width: 20px;
+		height: 20px;
+		position: absolute;
+		left: 128px;
+		top: 0;
+	}
+	.article-title{
+		display: inline-block;
+		vertical-align: middle;
+		a{
+			color: $content-color;
+		}
+		a:hover{
+			color: $main-color;
+		}
+	}
+
+
+}

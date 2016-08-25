@@ -1,12 +1,18 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<html>
+
+<!-- Head tag -->
+
 <%- partial('_partial/head') %>
-<body id="index" class="lightnav animsition">
 
-      <%- partial('_partial/header') %>
-      <%- body %>
-      <%- partial('_partial/footer') %>
-      <%- partial('_partial/after_all') %>
+<body>
+	<!-- header -->
+	<%- partial('_partial/header') %>
 
+	<!-- Main content -->
+	<%- body %>
+
+	<!-- footer -->
+	<%- partial('_partial/footer') %>
 </body>
 </html>

@@ -1,0 +1,18 @@
+footer{
+	width: $content-width;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 20px;	
+	.social{
+		i{
+			margin: 0 15px; 
+			color: #000;
+			cursor: pointer;
+		}
+		i:hover{
+			color: $main-color;
+		}
+
+	}
+}
