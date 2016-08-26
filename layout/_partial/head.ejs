@@ -7,11 +7,11 @@
     <meta name="keyword"  content="<%= config.keyword %>">
     <title><% if (page.title){ %><%= page.title %> | <% } %><%= theme.title %></title>
     <!-- Favicon, (keep icon in root folder) -->
-    <link rel="Shortcut Icon" href="<%- url_for(theme.favicon) %>" type="image/ico">
+    <link rel="Shortcut Icon" href="<%- url_for(theme.favicon) %>">
 
     <!-- css files -->
     <%- css('css/app') %>
     <%- css('css/normalize.css') %>
-    <%- css('css/fontawesome.min.css') %>
+    <%- css('css/font-awesome.min.css') %>
 
 </head>

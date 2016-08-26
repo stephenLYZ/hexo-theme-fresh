@@ -4,7 +4,7 @@ subtitle: Just Do Hack!!!
 author: StephenLiu
 description:
 keyword: 
-favicon: favicon.ico
+favicon: favicon.png
 
 # Header
 menu:
@@ -14,8 +14,9 @@ menu:
 
 # avatar: img/avatar.png
 # banner: img/banner.png
-avatar: img/avatar.png
-banner: img/banner.png
+# note: 
+avatar: http://7xl0rs.com1.z0.glb.clouddn.com/avatar.png
+banner: http://7xl0rs.com1.z0.glb.clouddn.com/banner.png
 
 # social
 social:
