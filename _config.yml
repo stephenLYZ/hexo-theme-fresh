@@ -1,6 +1,6 @@
 # basic
 title:  hexo-theme-fresh
-subtitle: Just Do Heck!!!
+subtitle: Just Do Hack!!!
 author: StephenLiu
 description:
 keyword: 
@@ -19,8 +19,8 @@ banner: img/banner.png
 
 # social
 social:
-  twitter:
-  weibo: 
+  twitter:  https://twitter.com
+  weibo: http://www.weibo.com/3103316530/profile?rightmod=1&wvr=6&mod=personinfo
   github: https://github.com/stephenLYao
 
 

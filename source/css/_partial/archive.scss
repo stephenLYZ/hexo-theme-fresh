@@ -8,7 +8,7 @@
 	.article:before{
 		content: '';
 	    position: absolute;
-	    height: 18%;
+	    height: 20%;
 	    width: 6px;
 	    left: 150px;
 	    background: $main-color;
@@ -34,6 +34,7 @@
 	.article-title{
 		display: inline-block;
 		vertical-align: middle;
+		max-width: 70%;
 		a{
 			color: $content-color;
 		}
