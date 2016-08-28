@@ -11,7 +11,7 @@
 			background-color: $main-color;
 			font-family: $font-mono;
 			transition: all 0.4s ease;
-			padding:5px;
+			padding:5px 15px;
 
 			a{
 				color: #fff;
@@ -20,11 +20,10 @@
 			}
 
 			&:hover{
-				background-color: transparent;
-				border: 1px solid $main-color;
+				background-color: rgb(32, 123, 109);
 
 				a{
-					color: $main-color;
+					color: #fff;
 				}
 			}
 		}

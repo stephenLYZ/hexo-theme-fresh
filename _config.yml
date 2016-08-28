@@ -1,20 +1,20 @@
 # basic
-title:  hexo-theme-fresh
+title:  Stephen's blog
 subtitle: Just Do Hack!!!
-author: StephenLiu
-description:
+description: 
 keyword: 
-favicon: favicon.png
+favicon: favicon.ico
 
 # Header
 menu:
   ## If your site is put in a subdirectory, set Home as '/child/'
   Home: /
   Archives: /archives
+  About: /about
+  Rss: atom.xml
 
 # avatar: img/avatar.png
 # banner: img/banner.png
-# note: 
 avatar: http://7xl0rs.com1.z0.glb.clouddn.com/avatar.png
 banner: http://7xl0rs.com1.z0.glb.clouddn.com/banner.png
 
@@ -25,13 +25,8 @@ social:
   github: https://github.com/stephenLYao
 
 
-duoshuo: duoshuo_shortname
-disqus: disqus _shortname
-google_analytics: 
-google_adsense_page_level_ads: #Google Adsense Page Level Ads Code
+aboutContent: FEer / Muxi-Studio /Guitar Lover
 
-
-excerpt_num: 120
 # hexo-renderer-sass 
 node_sass:
   outputStyle: nested

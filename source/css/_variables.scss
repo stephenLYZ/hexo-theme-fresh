@@ -40,11 +40,3 @@ $quote-border-color: #aaa;
 $quote-color: #aaa;
 $code-block-linehight: 1.25 * $root-font-size;
 
-//clearfix
-.clearfix {
-    &::after {
-        content: "";
-        display: table;
-        clear: both;
-    }
-}

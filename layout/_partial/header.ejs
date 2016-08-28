@@ -1,13 +1,15 @@
 <header class="header">
     <section class="banner">
-        <img class="banner-image" src="<%- url_for(theme.banner) %>" alt="banner">
+        <div class="banner-image">
+            <img src="<%- url_for(theme.banner) %>" alt="banner">
+        </div>
         <img class="avatar" src="<%- url_for(theme.avatar) %>" alt="avatar" >
     </section>
 
     <nav class="nav">
-    	<a href="/">Home </a>
-
-    	<a href="/archives">Archives</a>
+    <%for (var i in theme.menu){ %>
+    	<a href="<%- url_for(theme.menu[i]) %>"><%= i %></a>
+    <% } %>
     </nav>
     	
     <div class="subtitle"> <%- theme.subtitle %> </div>

@@ -1,0 +1,13 @@
+.about{
+	width:$content-width;
+	margin: 0 auto;
+	text-align: center;
+	font-family: $font-blog-title;
+	.about-header{
+		border-bottom: 1px dashed $border-color;
+	}
+	.social a{
+		display: inline-block;
+		margin: 10px 20px;
+	}
+}
