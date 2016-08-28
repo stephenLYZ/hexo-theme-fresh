@@ -1,6 +1,6 @@
 
 # hexo-theme-fresh
-![](http://7xl0rs.com1.z0.glb.clouddn.com/fresh.png)
+![](http://7xl0rs.com1.z0.glb.clouddn.com/hexofresh.png)
 
  
 [demo here](https://stephenlyao.github.io)
