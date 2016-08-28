@@ -20,8 +20,25 @@
 	
 	theme: hexo-theme-fresh
 	
+
 ## Configuration
 
+Tag Title and description under the avatar
+```
+title:  Stephen's blog
+subtitle: Just Do Hack!!!
+```
 
+The cover image on the top.
+```
+avatar: img/avatar.png
+banner: img/banner.png
+```
+
+The about contents:
+
+```
+aboutContent: FEer / Muxi-Studio /Guitar Lover
+```
 ## License
 MIT
