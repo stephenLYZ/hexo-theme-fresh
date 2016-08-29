@@ -1,18 +1,39 @@
 main.post{
 	max-width: $content-width;
 	margin: 0 auto;
-  	padding: $gutter;
+  	padding: $gutter *2;
   	border-bottom: 1px solid $border-color;
+	@media (max-width: 62em){
 
+		.post-time{
+			left: 50%;
+			transform: translateX(-50%);
+		}
+		.article-title{
+			margin-top: 2em;
+		}
+		.article-entry{
+			font-size: 1.2em;
+			line-height: 1.8;
+		}
+	}
+	@media (min-width: 63em){
+		.post-time{
+			left: 0;
+		}
+		article{
+			padding-left: 140px;
+		}
+	}
   	article{
   		border-top: 1px solid $border-color;
   		position: relative;
-  		margin-top: 50px;
-  		padding-left: 140px;
+  		margin-top: 50px; 		
   		line-height: $article-line-height;
   	}
   	.article-title{
-
+		font-size: 2em;
+		line-height: 1.2;
   		font-family: $font-post-title;
   	}
 
@@ -27,8 +48,6 @@ main.post{
 		position: absolute;
 		background-color: #fff;
 		top: -55px;
-		left: 0;
-		transition: all 0.5s ease-out;	
 		.post-date{
 			font-family: $font-blog-title;
 			font-size: 25px;					

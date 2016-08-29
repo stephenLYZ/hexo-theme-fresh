@@ -1,11 +1,12 @@
 .archive{
 	max-width: $content-width;
 	margin: 50px auto;
-	padding: $gutter;
+	padding: $gutter *2;
 	position: relative;
-	
 
-	.article:before{
+
+	@media (min-width: 63em){
+		.article:before{
 		content: '';
 	    position: absolute;
 	    height: 90px;
@@ -13,33 +14,34 @@
 	    left: 150px;
 	    background: $main-color;
 	}
-	.article-meta{
-		display: inline-block;
-		margin-right: 100px;
-		position: relative;
-		font-family: $font-mono;
-		font-size: 18px;
+		.article-meta{
+			display: inline-block;
+			margin-right: 100px;
+			position: relative;
+			font-family: $font-mono;
+			font-size: 18px;
 
-	}
-	.article-meta:after{
-		content: '';
-		border-radius: 50%;
-		background-color: $content-color;
-		width: 20px;
-		height: 20px;
-		position: absolute;
-		left: 128px;
-		top: 0;
-	}
-	.article-title{
-		display: inline-block;
-		vertical-align: middle;
-		max-width: 70%;
-		a{
-			color: $content-color;
 		}
-		a:hover{
-			color: $main-color;
+		.article-meta:after{
+			content: '';
+			border-radius: 50%;
+			background-color: $content-color;
+			width: 20px;
+			height: 20px;
+			position: absolute;
+			left: 128px;
+			top: 0;
+		}
+		.article-title{
+			display: inline-block;
+			vertical-align: middle;
+			max-width: 70%;
+			a{
+				color: $content-color;
+			}
+			a:hover{
+				color: $main-color;
+			}
 		}
 	}
 

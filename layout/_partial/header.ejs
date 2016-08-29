@@ -11,7 +11,12 @@
     	<a href="<%- url_for(theme.menu[i]) %>"><%= i %></a>
     <% } %>
     </nav>
-    	
-    <div class="subtitle"> <%- theme.subtitle %> </div>
+    <button class="menu-toggle">
+        <div class="nav-bar">
+             <%for (var i in theme.menu){ %>
+                <a href="<%- url_for(theme.menu[i]) %>"><%= i %></a>
+            <% } %>
+        </div>
+    </button>
     
 </header>

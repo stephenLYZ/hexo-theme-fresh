@@ -1,4 +1,120 @@
 .header{
+	@media (max-width: 62em) {
+			.banner .avatar{
+				width: $avatar-size/4;
+	    		height: $avatar-size/4;
+	    		border-radius: 50%;
+	    		border: 2px solid #fff;
+	    		background-color: $avatar-backgound;
+	    		left: 3%;
+	    		top: 3%;
+	    		z-index: 1;
+	    		position: absolute;
+	    		box-shadow: 0 0 3px rgba(0,0,0,0.4);
+			}
+			.menu-toggle{
+				display: block;
+				position: absolute;
+				background: url(../img/menu.png) center no-repeat;
+				width: 20px;
+				height: 20px;
+				top: 2%;
+				right: 2%;
+				background-color: #000;
+				border: none;
+				outline: none;
+			}
+			.nav-bar{
+				text-align: left;
+			    position: absolute;
+			    background-color: #fff;
+			    line-height: 30px;
+			    box-shadow: 0 0 8px rgba(0,0,0,0.6);
+			    right: 0;
+			    top: 30px;
+			    padding: 15px;
+			    display: none;
+			    border-radius: 5px;
+			    z-index: 1;
+			}
+			.nav-bar a{
+				display: block;
+				padding-right: 70px;
+				line-height: 40px;
+				border-bottom: 1px solid $border-color;
+				color: $content-color;
+				font-family: $font-blog-title;
+			}
+			.nav-bar a:hover{
+				color: $main-color;
+			}
+			.nav{
+				display: none;
+			}
+
+			.show{
+				display: block;
+			}
+			
+		}
+	@media (min-width: 63em){
+			.banner .avatar{
+				width: $avatar-size;
+	    		height: $avatar-size;
+	    		border-radius: 50%;
+	    		border: 5px solid #fff;
+	    		background-color: $avatar-backgound;
+	    		position: absolute;
+	    		left: 50%;
+	    		transform: translate(-50%,-50%);
+	    		z-index: 1;
+	    		top: 100%;
+	    		box-shadow: 0 0 3px rgba(0,0,0,0.4);
+			}
+			.nav{
+				line-height: 4.3rem;
+				border-bottom: 1px solid rgba(0,0,0,0.1);
+				position: relative;
+
+			}
+			.nav a{
+				font-size: 1.4rem;
+				font-family: $font-blog-title;
+				display: inline-block;
+				line-height: 3rem;
+				color: $content-color;
+				position: relative;
+				margin: 0 2% 0 3%;
+				cursor: pointer;
+				text-transform: uppercase;
+	            &:nth-child(1){
+	                margin-left: 20%;
+	            }
+				&:nth-child(2){
+					margin-right: 16%;
+
+				}
+				&:hover{
+					color: $main-color;
+				}
+				&:before{
+					content: '';
+					position: absolute;
+					left: 0;
+					bottom: 0;
+					width: 0;
+					height: 3px;
+					background-color: $content-color;
+					transition: all 0.3s ease-out;
+				}
+				&:hover:before{
+					width:100%;
+				}
+			}
+			.menu-toggle{
+				display: none;
+			}
+	}
 
 	.banner{
 		position: relative;
@@ -9,79 +125,5 @@
 		.banner-image img{
 			width: 100%;
 		}
-		.avatar{
-			width: $avatar-size;
-    		height: $avatar-size;
-    		border-radius: 50%;
-    		border: 5px solid #fff;
-    		background-color: $avatar-backgound;
-    		position: absolute;
-    		left: 50%;
-    		transform: translate(-50%,-50%);
-    		z-index: 1;
-    		top: 100%;
-    		box-shadow: 0 0 3px rgba(0,0,0,0.4);
-		}
-	}
-
-	.nav{
-		line-height: 4.3rem;
-		border-bottom: 1px solid rgba(0,0,0,0.1);
-		position: relative;
-		a{
-            width:5%;
-			font-size: 20px;
-			font-family: $font-blog-title;
-			display: inline-block;
-			line-height: 3rem;
-			color: $content-color;
-			position: relative;
-			margin: 0 2% 0 2%;
-			cursor: pointer;
-			text-transform: uppercase;
-            &:nth-child(1){
-                margin-left: 24%;
-            }
-			&:nth-child(2){
-				margin-right: 18%;
-
-			}
-			&:hover{
-				color: $main-color;
-			}
-			&:before{
-				content: '';
-				position: absolute;
-				left: 0;
-				bottom: 0;
-				width: 0;
-				height: 3px;
-				background-color: $content-color;
-				transition: all 0.3s ease-out;
-			}
-			&:hover:before{
-				width:100%;
-			}
-		}
-
-		.avatar{
-			width: $avatar-size;
-    		height: $avatar-size;
-    		border-radius: 50%;
-    		border: 5px solid #fff;
-    		background-color: $avatar-backgound;
-    		position: absolute;
-    		left: 50%;
-    		transform: translate(-50%,-50%);
-    		z-index: 1;
-    		top: 100%;
-    		box-shadow: 0 0 3px rgba(0,0,0,0.4);
-		}
-
-	}
-	.subtitle{
-		color: $content-color;
-		margin-top: 50px;
-		text-align: center;
 	}
 }

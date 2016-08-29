@@ -1,6 +1,7 @@
 
 # hexo-theme-fresh
-![](http://7xl0rs.com1.z0.glb.clouddn.com/hexofresh.png)
+![](https://cloud.githubusercontent.com/assets/11830681/18042933/014b5214-6df7-11e6-8059-442692f51bdf.png)
+![fresh-m](https://cloud.githubusercontent.com/assets/11830681/18042934/01974fca-6df7-11e6-9527-3fb00a689104.png)
 
  
 [demo here](https://stephenlyao.github.io)

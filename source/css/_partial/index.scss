@@ -1,17 +1,54 @@
 .index{
 	max-width: $content-width;
 	margin: 0 auto;
-	padding: $gutter;
+	padding: 3% 8%;
+	@media (max-width: 62em){
+		.post-title{
+			font-size: 1.3em;
+			margin-top: 3em;
+		}
+		.post-time{
+			left: 50%;
+			transform: translateX(-50%);
+			width: $time-width /1.5;
+			height: $time-width/1.5;
+			top: - $time-width/3;
+			line-height: $time-width/1.5;
+			
+		}
+		.post-entry{
+			font-size: 1.3em;
+		}
+		.post{
+			text-align: center;
+		}
+	}
+	@media (min-width: 63em){
+		.post{
+			padding-left:140px;
+		}
+		.post-time{
+			left: 0;
+			top: - $time-width/2;
+			width: $time-width;
+			height: $time-width;
+			line-height: $time-width;	
+		}
+	}
+	.subtitle{
+		font-size: 1.1em;
+		color: $content-color;
+		margin-top: 4%;
+		text-align: center;
+		font-family: $font-blog-title;
+	}
 	.post{
 		position: relative;
 		min-height: 235px;
 		border-top: 1px solid  $border-color;
-		padding-left:140px;
 		padding-bottom: 35px;
 		border-bottom: 1px dashed $border-color;
 		margin-top: 60px; 
-		
-
 		&:hover{
 			.post-time{
 				color: #eee;
@@ -19,27 +56,21 @@
 			}
 			.post-title a{
 				color: $main-color;
-			}
-			
+			}		
 		}
 	}
 
 	.post-time{
-		width: 115px;
-		height: 115px;
 		border-radius: 50%;
 		border: 5px solid $border-color;
-		text-align: center;
-		line-height: 115px;		
+		text-align: center;	
 		color: $main-color;	
 		position: absolute;
 		background-color: #fff;
-		top: -57px;
-		left: 0;
 		transition: all 0.5s ease-out;	
 		.post-date{
 			font-family: $font-blog-title;
-			font-size: 25px;					
+			font-size: 1.3em;					
 		}
 
 	}
@@ -49,12 +80,13 @@
 	}
 	.post-entry{
 		padding: $gutter 0 2*$gutter 0;
+		line-height: 1.4;
 	}
 	.readmore{
 		display: inline-block;
 		font-family: $font-blog-title;
 		line-height: 25px;
-		font-size: 18px;
+		font-size: 1.2em;
 		position: relative;
 
 		&:before{
