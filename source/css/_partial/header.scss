@@ -4,7 +4,6 @@
 		position: relative;
 		.banner-image{
 			width: 100%;
-			height: 360px;
 			overflow: hidden
 		}
 		.banner-image img{
@@ -16,7 +15,7 @@
     		border-radius: 50%;
     		border: 5px solid #fff;
     		background-color: $avatar-backgound;
-    		position: absolute; 
+    		position: absolute;
     		left: 50%;
     		transform: translate(-50%,-50%);
     		z-index: 1;
@@ -29,21 +28,24 @@
 		line-height: 4.3rem;
 		border-bottom: 1px solid rgba(0,0,0,0.1);
 		position: relative;
-		padding-left: 250px;
 		a{
+            width:5%;
 			font-size: 20px;
 			font-family: $font-blog-title;
 			display: inline-block;
 			line-height: 3rem;
 			color: $content-color;
-			position: relative;	
-			margin: 0 30px;
-			cursor: pointer; 
+			position: relative;
+			margin: 0 2% 0 2%;
+			cursor: pointer;
 			text-transform: uppercase;
+            &:nth-child(1){
+                margin-left: 24%;
+            }
 			&:nth-child(2){
-				margin-right: 240px;
+				margin-right: 18%;
 
-			}		
+			}
 			&:hover{
 				color: $main-color;
 			}
@@ -60,7 +62,21 @@
 			&:hover:before{
 				width:100%;
 			}
-		}		
+		}
+
+		.avatar{
+			width: $avatar-size;
+    		height: $avatar-size;
+    		border-radius: 50%;
+    		border: 5px solid #fff;
+    		background-color: $avatar-backgound;
+    		position: absolute;
+    		left: 50%;
+    		transform: translate(-50%,-50%);
+    		z-index: 1;
+    		top: 100%;
+    		box-shadow: 0 0 3px rgba(0,0,0,0.4);
+		}
 
 	}
 	.subtitle{
