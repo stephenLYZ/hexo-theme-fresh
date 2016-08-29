@@ -5,7 +5,7 @@ PC:
 ![](https://cloud.githubusercontent.com/assets/11830681/18042933/014b5214-6df7-11e6-8059-442692f51bdf.png)
 
 mobile:    
-![fresh-m](https://cloud.githubusercontent.com/assets/11830681/18042934/01974fca-6df7-11e6-9527-3fb00a689104.png)
+![fresh-m](https://cloud.githubusercontent.com/assets/11830681/18043670/f943a6fc-6dfb-11e6-976f-5733ad01c500.png)
 
  
 
