@@ -8,6 +8,10 @@ main.post{
 		.post-time{
 			left: 50%;
 			transform: translateX(-50%);
+			width: $time-width /1.5;
+			height: $time-width/1.5;
+			top: - $time-width/3;
+			line-height: $time-width/1.5;
 		}
 		.article-title{
 			margin-top: 2em;
@@ -28,7 +32,7 @@ main.post{
   	article{
   		border-top: 1px solid $border-color;
   		position: relative;
-  		margin-top: 50px; 		
+  		margin-top: 50px;
   		line-height: $article-line-height;
   	}
   	.article-title{
@@ -43,14 +47,14 @@ main.post{
 		border-radius: 50%;
 		border: 5px solid $border-color;
 		text-align: center;
-		line-height: 110px;		
-		color: $main-color;	
+		line-height: 110px;
+		color: $main-color;
 		position: absolute;
 		background-color: #fff;
 		top: -55px;
 		.post-date{
 			font-family: $font-blog-title;
-			font-size: 25px;					
+			font-size: 25px;
 		}
 
 	}
